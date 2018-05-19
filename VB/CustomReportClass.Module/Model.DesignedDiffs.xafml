@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="CustomReportClass" Logo="ExpressAppLogo">
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="12.1.2.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="CustomReportData_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100" ImageName="">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100" ImageName="">
+            <LayoutGroup Id="ReportData" RelativeSize="11" ImageName="">
+              <LayoutItem Id="ReportName" SizeConstraintsType="Default" RelativeSize="37" />
+              <LayoutItem Id="DataTypeCaption" SizeConstraintsType="Default" RelativeSize="27" />
+              <LayoutItem Id="IsInplaceReport" SizeConstraintsType="Default" RelativeSize="34" />
+            </LayoutGroup>
+            <LayoutGroup Id="XPObject" Direction="Horizontal" RelativeSize="88" Caption="Oid" ImageName="">
+              <LayoutItem Id="Oid" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>
