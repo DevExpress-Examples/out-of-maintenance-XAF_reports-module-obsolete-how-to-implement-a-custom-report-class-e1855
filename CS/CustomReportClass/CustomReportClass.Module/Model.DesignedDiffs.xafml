@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application Title="CustomReportClass" Logo="ExpressAppLogo">
+	<Options>
+		<LayoutManagerOptions CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" TextAlignModeItem="UseParentOptions" TextAlignModeGroup="UseParentOptions" />
+	</Options>
+	<SchemaModules IsNewNode="True">
+		<SchemaModule Name="DevExpress.ExpressApp.SystemModule.AutoFilterRowListViewController" Version="9.3.0.0" IsNewNode="True" />
+		<SchemaModule Name="DevExpress.ExpressApp.SystemModule.HideActionsViewController" Version="9.3.0.0" IsNewNode="True" />
+		<SchemaModule Name="DevExpress.ExpressApp.SystemModule.ShowNavigationItemController" Version="9.3.0.0" IsNewNode="True" />
+		<SchemaModule Name="SystemModule" Version="9.3.0.0" IsNewNode="True" />
+	</SchemaModules>
+	<Views>
+		<DetailView ID="CustomReportData_DetailView">
+			<Layout Width="522" Height="888">
+				<LayoutGroup ID="Main" RelativeSize="100">
+					<LayoutGroup ID="SimpleEditors" RelativeSize="100">
+						<LayoutGroup ID="ReportData" RelativeSize="11">
+							<LayoutItem ID="DataTypeCaption" RelativeSize="27" />
+							<LayoutItem ID="IsInplaceReport" RelativeSize="34" />
+							<LayoutItem ID="ReportName" RelativeSize="37" />
+						</LayoutGroup>
+						<LayoutGroup ID="XPObject" Direction="Horizontal" RelativeSize="88">
+							<LayoutItem ID="Oid" Removed="True" />
+						</LayoutGroup>
+					</LayoutGroup>
+				</LayoutGroup>
+			</Layout>
+		</DetailView>
+	</Views>
+</Application>

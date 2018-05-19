@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application>
+	<SchemaModules>
+		<SchemaModule Name="DevExpress.ExpressApp.SystemModule.ShowNavigationItemController" Version="9.3.0.0" />
+		<SchemaModule Name="DevExpress.ExpressApp.Win.SystemModule.ChooseSkinController" Version="9.3.0.0" IsNewNode="True" />
+		<SchemaModule Name="SystemWindowsFormsModule" Version="9.3.0.0" IsNewNode="True" />
+	</SchemaModules>
+	<Views>
+		<DetailView ID="CustomReportWizardParameters_DetailView">
+			<Items>
+				<StaticImage ID="ReportImage" ImageName="WizStart" SizeMode="Auto" IsNewNode="True" />
+				<StaticText ID="ReportText" Text="To create a new report, please enter a name in the field below and select the primary data type of the report from the list." IsNewNode="True" />
+			</Items>
+			<Layout Width="522" Height="888">
+				<LayoutGroup ID="Main" RelativeSize="100">
+					<LayoutGroup ID="Report_Group" Removed="True" />
+					<LayoutGroup ID="SimpleEditors" RelativeSize="100">
+						<LayoutGroup ID="CustomReportWizardParameters" Removed="True" />
+						<LayoutGroup ID="NewXafReportWizardParameters" Index="0" Direction="Horizontal" RelativeSize="100">
+							<LayoutGroup ID="3ac81098-154a-4ff8-ae91-38d33292f6b7" ShowCaption="False" Caption="" CaptionLocation="" CaptionHorizontalAlignment="" CaptionVerticalAlignment="" CaptionWordWrap="" TextAlignMode="" Direction="Vertical" Index="1" RelativeSize="72" IsNewNode="True">
+								<LayoutItem ID="AdditionalInfo" ShowCaption="True" Index="1" RelativeSize="2" IsNewNode="True" />
+								<LayoutItem ID="DataType" ShowCaption="True" Index="2" RelativeSize="2" IsNewNode="True" />
+								<LayoutItem ID="ReportName" ShowCaption="True" Index="3" RelativeSize="2" IsNewNode="True" />
+								<LayoutItem ID="ReportText" ShowCaption="False" Index="0" RelativeSize="3" IsNewNode="True" />
+								<LayoutItem ID="ReportType" ShowCaption="True" Index="4" RelativeSize="88" IsNewNode="True" />
+							</LayoutGroup>
+							<LayoutItem ID="DataType" Removed="True" />
+							<LayoutItem ID="ReportImage" ShowCaption="False" SizeConstraintsType="Default" TextAlignMode="UseParentOptions" CaptionLocation="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" CaptionWordWrap="Default" Index="0" RelativeSize="27" IsNewNode="True" />
+							<LayoutItem ID="ReportName" Removed="True" />
+							<LayoutItem ID="ReportType" Removed="True" />
+						</LayoutGroup>
+					</LayoutGroup>
+				</LayoutGroup>
+			</Layout>
+		</DetailView>
+	</Views>
+</Application>
