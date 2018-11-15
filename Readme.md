@@ -1,3 +1,10 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [CustomReportWizardController.cs](./CS/CustomReportClass.Module.Win/CustomReportWizardController.cs) (VB: [CustomReportWizardController.vb](./VB/CustomReportClass.Module.Win/CustomReportWizardController.vb))
+* **[CustomXAFReport.cs](./CS/CustomReportClass.Module.Win/CustomXAFReport.cs) (VB: [CustomXAFReport.vb](./VB/CustomReportClass.Module.Win/CustomXAFReport.vb))**
+* [Model.DesignedDiffs.xafml](./CS/CustomReportClass.Module.Win/Model.DesignedDiffs.xafml) (VB: [Model.DesignedDiffs.xafml](./VB/CustomReportClass.Module.Win/Model.DesignedDiffs.xafml))
+<!-- default file list end -->
 # Reports Module (Obsolete) - How to: Implement a Custom Report Class
 
 
