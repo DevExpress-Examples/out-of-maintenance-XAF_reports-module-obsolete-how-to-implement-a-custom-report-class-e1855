@@ -7,7 +7,6 @@ Imports DevExpress.Xpo
 Imports DevExpress.XtraReports.Serialization
 
 Namespace CustomReportClass.Module
-	<DevExpress.XtraReports.RootClass> _
 	Public Class CustomXafReport
 		Inherits XafReport
 		Protected additionalInfo_Renamed As String
