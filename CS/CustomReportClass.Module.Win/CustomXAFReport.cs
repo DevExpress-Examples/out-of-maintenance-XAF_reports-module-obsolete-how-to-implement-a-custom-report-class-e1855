@@ -5,7 +5,6 @@ using DevExpress.Xpo;
 using DevExpress.XtraReports.Serialization;
 
 namespace CustomReportClass.Module {
-    [DevExpress.XtraReports.RootClass]
     public class CustomXafReport : XafReport {
         protected string additionalInfo;
         public string AdditionalInfo {
